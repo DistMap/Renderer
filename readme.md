@@ -1,1 +1,1 @@
-Currently just saves uploaded .mca files to ./uploads
+Currently just saves uploaded files to ./uploads
