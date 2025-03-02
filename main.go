@@ -15,10 +15,6 @@ func main() {
 
 	// Create upload directory
 	err := os.Mkdir(uploadDir, os.ModePerm)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
 
 	// Build router
 	http.HandleFunc("/upload", uploadHandler)
